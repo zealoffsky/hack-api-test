@@ -1,0 +1,16 @@
+{
+    "require": {
+        "ext-curl": "*",
+        "hhvm/hhvm-autoload": "^3.3",
+        "facebook/fbexpect": "^2.9",
+        "hhvm/hacktest": "^2.4"
+    },
+    "config": {
+        "platform": {
+            "hhvm": "4.153.0"
+        },
+        "allow-plugins": {
+            "hhvm/hhvm-autoload": true
+        }
+    }
+}
