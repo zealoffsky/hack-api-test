@@ -11,25 +11,25 @@ This repository contains small example of implementation automated API tests usi
 
 Clone the Repository
 
-'''bash
+```bash
 git clone https://github.com/zealoffsky/hack-http-test.git
 cd hack-http-test
-'''
+```
 
 ## Install Dependenies
 
-'''bash
+```bash
 composer install
-'''
+```
 
 ## Generate Autoload
-'''bash
+```bash
 vendor/bin/hh-autoload
-'''
+```
 ## Run the Tests
-'''bash
+```bash
 vendor/bin/hacktest tests/
-'''bash
+```
 
 ## Owner
 Artem Halushka 
