@@ -1,4 +1,4 @@
-# API Hack Automation Tests
+# Automated API Tests Hack/HHVM
 
 This repository contains small example of implementation automated API tests using Hack/HHVM.
 
