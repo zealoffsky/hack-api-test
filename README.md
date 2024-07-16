@@ -1,30 +1,35 @@
-API Hack Automation Tests
+#API Hack Automation Tests
 
 This repository contains small example of implementation automated API tests using Hack/HHVM.
 
-Prerequisites
+##Prerequisites
 - Installed Composer 
 - Installed HHVM
 (Please refer to official HHVM documentation: https://docs.hhvm.com/hhvm/installation/introduction)
 
-Getting Started
+##Getting Started
 
 Clone the Repository
 
+'''bash
 git clone https://github.com/zealoffsky/hack-http-test.git
 cd hack-http-test
+'''
 
-Install Dependenies
+##Install Dependenies
 
+'''bash
 composer install
+'''
 
-Generate Autoload
-
+##Generate Autoload
+'''bash
 vendor/bin/hh-autoload
-
-Run the Tests
-
+'''
+##Run the Tests
+'''bash
 vendor/bin/hacktest tests/
+'''bash
 
-Owner:
+##Owner
 Artem Halushka 
