@@ -1,6 +1,7 @@
 # Automated API Tests Hack/HHVM
 
 This repository contains small example of implementation automated API tests using Hack/HHVM.
+(Used https://jsonplaceholder.typicode.com for mock API's)
 
 ## Prerequisites
 - Installed Composer 
